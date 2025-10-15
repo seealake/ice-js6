@@ -7,6 +7,11 @@ function createReversedString(str) {
   // your code here!
 }
 
+/**
+ * Detects whether a string is a palindrome.
+ * @param {string} str - The string to check.
+ * @returns {boolean}
+ */
 function isPalindrome(str) {
   return str === createReversedString(str);
 }
