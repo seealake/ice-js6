@@ -6,6 +6,13 @@
 function isPalindrome(arr) {
   // your code here
   // use .reverse()!
+  const reversed = [...arr].reverse();
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] !== reversed[i]) {
+      return false;
+    }
+  }
+  return true;
 }
 
 function test(arr) {

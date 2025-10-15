@@ -7,6 +7,8 @@ function isPalindrome(str) {
   // your code here!
   // can you achieve this without a loop?
   // hint: use .split("") and .join("")
+  const reversed = str.split("").reverse().join("");
+  return str === reversed;
 }
 
 function test(str) {
