@@ -6,6 +6,12 @@
 function isPalindrome(str) {
   // your code here!
   // use a C-style for loop with an early return
+  for (let i = 0; i < str.length / 2; i++) {
+    if (str[i] !== str[str.length - 1 - i]) {
+      return false;
+    }
+  }
+  return true;
 }
 
 function test(str) {
