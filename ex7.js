@@ -41,6 +41,13 @@ const counts = {
 };
 
 // your code here.
+for (let student of students) {
+  if (counts.hasOwnProperty(student.standing)) {
+    counts[student.standing]++;
+  } else {
+    counts.other++;
+  }
+}
 
 /* Output should be:
 { 
