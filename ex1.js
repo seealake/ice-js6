@@ -5,6 +5,7 @@
  */
 function isPalindrome(str) {
   // your code here!
+  // use a C-style for loop
 }
 
 function test(str) {
